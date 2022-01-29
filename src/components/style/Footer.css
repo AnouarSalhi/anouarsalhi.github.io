@@ -1,0 +1,43 @@
+.footer{
+ 
+   background-color: #fafdff;
+   text-align: center;
+   padding: 15px;
+
+   width: 100%;
+}
+.footer span{
+   color: black;
+   line-height: 50px;
+}
+
+.footerSocial a i{
+   border-radius: 100%;
+   color: rgb(255, 255, 255);
+   background-image: linear-gradient(to left,rgb(32, 28, 226),rgb(16, 0, 160));
+  
+   font-size: 15px;
+   padding:5px ;
+   margin: 5px;
+   margin-bottom: 2px;
+   display: none;
+
+}
+
+.love{
+   width: 25px;
+   height: 25px;
+}
+/*------------- Responsive design --------------*/
+
+@media only screen and (max-width: 768px){
+   .footerSocial a i{
+      display: inline;
+     
+   }
+   .footerSocial a i:hover{
+      text-decoration:none;
+   transform: translateY(0px);
+   animation:hoverFloat 1s ease-in-out ;
+}
+}

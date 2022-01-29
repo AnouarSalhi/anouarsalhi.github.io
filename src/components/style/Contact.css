@@ -1,0 +1,50 @@
+.contactRow{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contactImage{
+    height: 65%;
+    width: 75%;
+    display: block;
+    margin:0 auto;
+    margin-top: 10px;
+
+    
+}
+.attribute{
+    
+    color:#DDddff;
+    display: block;
+    font-size: 10px;
+    margin-bottom:30px ;
+}
+.submit{
+    padding: 7px;
+	margin-top: 5px;
+	border-radius:12px;	
+	color:white;
+	background-image:linear-gradient(to right,#0048a1,#0063db);
+    border:none
+} 
+.submit i{
+    margin-right: 5px;
+ }
+.submit:hover{
+	color:white;
+	background-image:linear-gradient(to left,#0048a1,#0063db);
+}
+
+.form-group {
+   
+    box-shadow:2px 4px 10px #effef5;
+    background-color: unset;
+}
+.form-group input,.form-group textarea{
+   border: none;
+   font-size: 14px;
+   background-color: #fff;
+   border-radius: 8px;
+}
+.form-group input{
+    height: 45px;
+}

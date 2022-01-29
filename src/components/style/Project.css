@@ -1,0 +1,73 @@
+.projectContainer{
+    padding-bottom: 20px;
+    background-image: linear-gradient(#f3fbff,#FFF);
+    margin: 10px;
+    box-shadow:5px 10px 20px #eff3f5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.projectContainer:hover{
+    transform: translateY(0px);
+    animation:hoverFloat 1s ease-in-out ;
+    
+}
+@keyframes hoverFloat {
+    0%{ 
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-15px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+.imageProject{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.projectTech {
+ padding-left: 10px;   
+ margin-bottom: 15px;
+ color:rgb(0, 0, 107);
+}
+.projectTech i{
+    color: rgb(88, 88, 251);
+    margin-right: 5px;
+}
+.githubBtn{
+   
+    font-size: 13px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom:15px ;
+    color: rgb(77, 77, 212);
+    background-color: rgb(236, 241, 250);
+    padding:  9px 8px;  
+    
+}
+.projectDesc,.githubBtn,.projectTitle{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.projectTitle {
+    margin-top: 10px;
+    color: rgb(0, 0, 107);
+}
+
+.projectDesc {
+    color: rgb(11, 0, 168);
+}
+
+@media only screen and (max-width: 768px){
+    .projectContainer {
+        height: unset
+    }
+}

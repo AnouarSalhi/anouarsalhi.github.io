@@ -1,0 +1,51 @@
+.testimonials{
+   margin-top: 60px;
+}
+.testimonialContainer{
+    padding-bottom: 20px;
+    
+    margin: 10px;
+    box-shadow:5px 9px 20px #eff3f5;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+     margin-top: 50px;
+}
+.projectContainer:hover{
+    transform: translateY(0px);
+    animation:hoverFloat 1s ease-in-out ;
+    
+}
+
+.testimonialImage{
+   
+    position: relative;
+    top: -35px;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow:5px 10px 20px #eff3f5;
+}
+.testimonialName{
+    color: rgb(0, 0, 141);
+    font-weight: 500;
+}
+.testimonialJob{
+    color: rgb(0, 0, 206);
+    font-size: 14px;
+}
+.testimonialText{
+    margin-top: 15px;
+    color: rgb(73, 73, 73);
+    
+}
+.fa-star{
+    color: rgb(0, 57, 246);
+    font-size: 14px;
+}

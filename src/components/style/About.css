@@ -1,0 +1,97 @@
+.about{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    margin-top:8%;
+    animation:aboutAnimation 2s ease-in-out;
+   margin-bottom: 50px;
+}
+.aboutLine{
+    display: inline-block;
+    width:50%;
+    height: 1px;
+    margin-bottom: 2px;
+    background-color:rgb(168, 170, 190);
+}
+.myImage{
+    margin-top: 80px;
+    margin-left: 5px;
+    
+    width: 200px;
+    height: 20%;
+    float: right;
+}
+
+.aboutDesc{
+    margin-top: 40px;
+    width:90%;
+   
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:5px 10px 20px rgb(228, 236, 255);
+}
+.who{
+    color: rgb(0, 0, 100);
+    margin-bottom: 10px;
+}
+.technologies{
+    color: rgb(0, 0, 100);
+    display: inline-block;
+    padding-top: 10px;
+}
+.technologies h5,.lang h5{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.lang{
+    padding-top: 10px;
+    color: rgb(0, 0, 100);
+    float: right;
+    margin-right: 30%;
+}
+/*------------ Animation-------------------------*/
+@keyframes aboutAnimation {
+    0%{ opacity: 0;
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-20px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+/*------------- Responsive design --------------*/
+
+@media only screen and (max-width: 768px){
+    .about{
+        width:100%;
+       
+        
+    }
+     .aboutDesc{
+            width:100%;
+        }
+    .myImage{
+        margin-top: 45px; 
+        
+        width: 120px;
+        height: 10%;
+        right: 0;
+        margin-right: 5px; 
+    }
+    .aboutDesc{
+        padding: 10px;
+    }
+    .lang{
+        float: unset;
+    }
+
+    .who{
+       font-size: 15px;
+    }
+
+}

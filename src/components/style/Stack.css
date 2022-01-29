@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+}
+.head{
+    position: relative;
+    color:rgb(0, 51, 146);
+    display: inline-block;
+    margin: 0 auto;
+     
+}
+
+.head::after {
+    content: "";
+    display: block;
+    position: inherit;
+    width: 40px;
+    margin-top: 1px;
+    height: 4px;
+    background-image: linear-gradient(to left,rgb(49, 138, 255),rgb(16, 0, 160));
+    
+    border-radius: 0px 20px;
+  }
+.stackContainer{
+    text-align: center;
+    background-color: #fafdff;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 35px;
+    
+}
+.r{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.stackElement{
+    
+  
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+   
+    height: 120px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow:5px 10px 20px #e5f6ff;
+    
+}
+
+.imageStack{
+    width: 50px;
+    height:50px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+   
+}
+.stackElement h5{
+    font-size: 14px;
+}
+.stackElement:hover{
+    transform: translateY(0px);
+    animation:hoverFloat 1s ease-in-out ;
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+    .stackElement{
+      
+        
+        height: 90px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .stackElement h5{
+        font-size: 10px;
+    }
+    .head{
+        
+        padding-top: 40px;
+        font-size: 16px;
+    
+    }
+    .imageStack{ 
+        width: 40px;
+        height: 40px;
+    }
+   
+}
+
